@@ -157,11 +157,13 @@ class Sniper:
         # 6) reward-to-risk: room back to the 720-bar high >= 2x the stop
         cap_low = min(self.lows[prev - LOOKBACK_HIGH + 1: prev + 1])
         ref = self.closes[i]
+        stop_lowest = ref * (BPS - STOP_CEIL_BPS) // BPS
+        stop_highest = ref * (BPS - STOP_FLOOR_BPS) // BPS
         stop = cap_low
-        if stop < ref * (BPS - STOP_CEIL_BPS) // BPS:
-            stop = ref * (BPS - STOP_CEIL_BPS) // BPS
-        if stop > ref * (BPS - STOP_FLOOR_BPS) // BPS:
-            stop = ref * (BPS - STOP_FLOOR_BPS) // BPS
+        if stop < stop_lowest:
+            stop = stop_lowest
+        if stop > stop_highest:
+            stop = stop_highest
         risk = ref - stop
         if risk <= 0:
             return False
