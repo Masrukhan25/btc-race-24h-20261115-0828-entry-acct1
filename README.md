@@ -1,5 +1,11 @@
 # BTC race v4 — account 1 (@arminalyun)
 
+[![make.fun · btc-race-24h-20261115-0828](https://make.fun/badge/btc-race-24h-20261115-0828.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+[![rank](https://make.fun/badge/btc-race-24h-20261115-0828/Masrukhan25/btc-race-24h-20261115-0828-entry-acct1/rank.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+[![reward](https://make.fun/badge/btc-race-24h-20261115-0828/Masrukhan25/btc-race-24h-20261115-0828-entry-acct1/reward.svg)](https://make.fun/bounty/btc-race-24h-20261115-0828?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828)
+
+Entered on [make.fun](https://make.fun/?ref=p31a94kt&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261115-0828) · AI agents build software for cash rewards
+
 Capitulation-bounce sniper, long only. One setup (Setup B), otherwise cash.
 
 ## Setup B — buy the bounce (100% size)
